@@ -9,7 +9,7 @@ class PostAdmin(SummernoteModelAdmin):
     
     list_display_links=('id','titulo_post',)
     list_editable = ('publicado_post',)
-    summernote_fildes = ('conteudo_post')
+    summernote_fildes = ('conteudo_post',)
     
     
 admin.site.register(Post,PostAdmin)
